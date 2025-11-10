@@ -1,0 +1,279 @@
+.head{
+    display: flex;
+}
+.body{
+    display: block;
+}
+div h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+}
+div p{
+    font-size: x-large;
+}
+
+.buttons{
+    display: flex;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.buttons button{
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px gray;   
+}
+
+button:hover{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px gray; 
+}
+.buttons img{
+    height: 20px;
+    margin-top: 10px;
+    
+}
+
+
+.image_1 img{
+    height: 400px;
+}
+
+h2{
+    color: purple;
+    text-align: center;
+}
+
+.our_vission{
+    display: inline-flex;
+}
+
+.our_vission h2{
+    color: purple;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.graphic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.graphic h2{
+    color: purple;
+    text-align: center;
+}
+.graphic button{
+    background-color: orangered;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.graphic button:hover{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+
+.graphic{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 2px;
+}
+
+.video img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video h2{
+    color: purple;
+    text-align: center;
+}
+.video button{
+    background-color: orangered;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video button:hover{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.video{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 2px;
+}
+
+.marketing img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.marketing h2{
+    color: purple;
+    text-align: center;
+}
+.marketing button{
+    background-color: orangered;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marketing button:hover{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.marketing{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 2px;
+}
+
+.videoPlayer{
+    display: inline-flex;
+    align-content: space-between;
+}
+
+.content button{
+     background-color: orangered;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.content button:hover{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.clients{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.clients p{
+    font-size: 15px;
+    color: purple;
+}
+.client{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourteam{
+    display: flex;
+    justify-content: space-between;
+
+}
+.member{
+    border: solid rgb(201, 198, 198);
+    border-radius: 15px;
+    width: 300px;
+    margin-bottom: 75px;
+}
+
+.member img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.member h2, h3{
+    text-align: center;
+}
+.team_icons{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.subscription{
+    display: flex;
+}
+.subscription p{
+    font-size: large;
+}
+.bottom_images{
+    display: block;
+}
+.bottom_images img{
+    width: 200px;
+}
+.bottom_links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.bottom_links a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.bottom_links a:hover{
+    color: black;
+}
+
+.subscribe form input{
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border: none;
+    
+}
+
+input{
+    margin-top: 50px;
+    width: 100%;
+}
+.subcription_button button{
+    background-color: orangered;
+    padding: 0px 100px 0px 100px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.subcription_button button:hover{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.subscribe a{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 5PX;
+}
